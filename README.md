@@ -9,78 +9,81 @@ The exercises and mini-projects were developed during my studies and reflect han
 ## Repository Structure
 
 ### basics/
-- Variables  
-- Input and output  
-- Conditionals (`if / elif / else`)  
-- Loops (`for / while`)  
+- Variables
+- Input and output
+- Conditionals (`if / elif / else`)
+- Loops (`for / while`)
 
 ### collections/
-- Lists  
-- Tuples  
-- Dictionaries  
-- Sets  
-- `collections` module (`Counter`, `defaultdict`)  
+- Lists
+- Tuples
+- Dictionaries
+- Sets
+- `collections` module (`Counter`, `defaultdict`)
 
 ### functions/
-- Function definitions  
-- Return values  
-- Parameters and default parameters  
-- Functions with lists and dictionaries  
+- Function definitions
+- Return values
+- Parameters
+- Functions combined with loops and input validation
 
 ### comprehensions/
-- List comprehensions  
-- Dictionary comprehensions  
-- Set comprehensions  
-- Comprehensions combined with functions and data structures  
+- List comprehensions
+- Dictionary comprehensions
+- Set comprehensions
+- Comprehensions combined with `map`, `filter`, `zip`, `all`, and `any`
 
 ### logic_practice/
-- Logic exercises  
-- Problem-solving using loops and conditionals  
+- Logic exercises
+- Problem-solving with conditionals and loops
 
 ### projects/
-Mini projects created to practice multiple concepts together in realistic scenarios.
 
-- **lead_prequalification_cli/**
-  - Command-line program that simulates a lead pre-qualification flow
-  - Collects user input (name, age, monthly income)
-  - Validates data using basic control flow and `try / except`
-  - Classifies leads (invalid / basic / qualified)
-  - Generates appropriate messages for each lead type
-  - Focuses on fundamentals without external APIs or AI
+#### 📌 Student Grades Calculator (CLI)
+- Collects student names and exam grades via user input
+- Calculates average grades using `map`
+- Filters approved students using `filter`
+- Displays approval messages based on results
+- Focus on functional programming and clean data processing
 
-- **student_grades_cli/**
-  - Command-line program that collects student names and exam grades
-  - Uses `zip()` to combine related data
-  - Applies `map()` to calculate averages
-  - Uses `filter()` to select approved students
-  - Generates result messages based on calculated averages
+#### 📌 Lead Pre-Qualification (CLI)
+- Simulates a simple lead qualification flow
+- Validates user input (name, age, income)
+- Classifies leads based on predefined rules
+- Generates user-friendly messages
+- Focus on logic, validation, and decision flow
+
+#### 📌 Expense Tracker (CLI)
+- Collects expense descriptions and values via user input
+- Validates inputs using `while` loops and `try/except`
+- Stores data as tuples
+- Filters expenses above a threshold
+- Calculates totals using `map`, `filter`, and `sum`
+- Focus on error handling, functions, and data organization
 
 ---
 
 ## Goals
 
-- Strengthen Python fundamentals  
-- Improve logical reasoning through structured exercises  
-- Practice writing clear, readable, and maintainable code  
-- Learn to combine built-in functions (`map`, `filter`, `zip`) effectively  
-- Build confidence before moving on to more advanced topics and frameworks  
+- Strengthen Python fundamentals
+- Improve logical reasoning through structured exercises
+- Practice writing clear, readable, and maintainable code
+- Apply functional programming tools to real problems
+- Build confidence before moving on to advanced topics
 
 ---
 
 ## Notes
 
-- This repository focuses on **fundamentals**, not advanced or “clever” solutions  
-- Code prioritizes readability and explicit logic over optimization  
-- Mini-projects are intentionally simple and CLI-based  
-- No external libraries or frameworks are used unless explicitly required  
+- This repository focuses on **fundamentals**, not advanced abstractions
+- Code prioritizes readability and explicit logic over optimization
+- Projects are built incrementally using only concepts already studied
 
 ---
 
 ## Status
 
-This repository is a **work in progress** and is continuously updated as I progress in my Python studies.
-
----
+🚧 Work in progress — continuously updated as I progress in my Python studies.
 
 📌 **Language:** Python  
 📌 **Focus:** Fundamentals, logic, data structures  
