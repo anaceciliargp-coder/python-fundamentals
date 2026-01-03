@@ -1,0 +1,6 @@
+Hello Ana!
+This is a sample file for the File Analyzer mini-project.
+
+It has multiple lines,
+some punctuation,
+and spaces.
