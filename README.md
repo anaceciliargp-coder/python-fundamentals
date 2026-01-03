@@ -61,6 +61,13 @@ The exercises and mini-projects were developed during my studies and reflect han
 - Calculates totals using `map`, `filter`, and `sum`
 - Focus on error handling, functions, and data organization
 
+#### 📌 File Analyzer (CLI)
+- Reads a text file provided by the user
+- Counts total characters and total lines
+- Handles file errors using `try/except`
+- Uses functions to separate logic from user interaction
+- Focus on file handling, error handling, and clean function design
+
 ---
 
 ## Goals
